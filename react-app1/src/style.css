@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+text-align: center;
+}
+.table-box
+{
+    margin: 50px auto;
+}
+.table-row
+{
+    display:table;
+    width:80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: rgb(48, 42, 42);
+    font: size 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell
+{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    
+
+}
+.table-head
+{
+    background: #8665f7;
+
+}
+.profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+  }
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px 0;
+    height: 60%;
+    width: 50%;
+    font: size 13px;
+    font-family: sans-serif;
+
+}
+td{
+    background-color: #99ccff;
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50%;
+    margin-top: 50px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.middle{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50%;
+    margin-top: 50px;
+}
+.profile1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px 0;
+    height: 60%;
+    width: 50%;
+    font: size 13px;
+    font-family: sans-serif;
+}
+td{
+    background-color: skyblue;
+    text-align: center;
+}
+
+profile2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.first{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50%;
+    margin-top: 50px;
+}
+
+/*landing css*/
+#name{
+    font-size: 3em;
+    color: rgb(244, 243, 243);
+}
+.landingpage{
+    padding: 200px 0;
+    text-align: center;
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(94, 151, 217) 50%, rgb(187, 226, 128) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
